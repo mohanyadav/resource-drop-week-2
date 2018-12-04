@@ -168,8 +168,42 @@ nav h2 {
 .left_section {
     float: left;
     width: 53%;
-    background: rgb(0, 0, 0);
     height: 100vh;
+    box-sizing: border-box;
+    padding: 0px 80px;
+}
+
+.left_section h1 {
+    font-size: 3.2em;
+    color: rgb(118, 14, 37);
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 8px;
+}
+
+.left_section h1 span {
+    color: rgb(253, 164, 0);
+}
+
+.left_section p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.left_section .discount_price {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    display: inline-block;
+}
+
+.left_section .original_price {
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    opacity: 0.3;
+    display: inline-block;
 }
 
 .right_section {
